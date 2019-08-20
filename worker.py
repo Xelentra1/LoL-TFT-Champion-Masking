@@ -39,6 +39,14 @@ from difflib import SequenceMatcher
 
 def similar(a, b):
     """Return similarity ratio of a and b"""
+    if a=="Zed" and (b=="Zea" or b=="Ted"):
+        return 1
+    if a=="Lulu" and (b=="Low" or b=="Lute"):
+        return 1
+    if a=="Evelynn" and (b=="Cyelynn" or b=="Cyelyan" or b=="Cvelyan"):
+        return 1
+    if a=="Ahri" and b=="Abri":
+        return 1
     return SequenceMatcher(None, a, b).ratio()
 
 def crop(imgArray,box):
