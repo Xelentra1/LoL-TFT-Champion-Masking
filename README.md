@@ -7,7 +7,7 @@ It works fine but is a little slow. Detects in one second. Because of using tess
 ### Installation For Windows
 - [Download](https://github.com/UB-Mannheim/tesseract/wiki) and install tesseract.
 - Modify ```pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe``` line from ```worker.py``` as your tesseract path.
-- ```pip install -r requirements.txt```
+- ```pip install -r requirements.txt --user```
 - Make window mode borderless in game settings.
 ![Game Mode Setting](https://github.com/tufanYavas/LoL-TFT-Champion-Masking/blob/master/images/borderlessoption.png)
 - Make Hud Scale = 100 in game settings.
